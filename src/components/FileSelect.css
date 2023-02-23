@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+}
+
+.uploadTable {
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background-color: #cfc09d;
+  padding: 50px;
+}
+
+.fileForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileInput {
+    background: #fff;
+    color: #999;
+    border: 1px black solid;
+}
+.fileInput::file-selector-button {
+  width: 150px;
+  background-color: #4caf50;
+  border: 0;
+  border-right: 1px black solid;
+  color: white;
+  padding: 15px 32px;
+}
+
+.fileButton {
+  width: 150px;
+  background-color: #4caf50;
+  border: 1px black solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fileTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fileTHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileTHead tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.fileTHead th {
+  width: 200px;
+  padding: 20px;
+  background-color: #96c988;
+  border: 1px black solid;
+}
+
+.fileTBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileTBody tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.fileTBody td {
+  border: 1px black solid;
+  background-color: #e0dd8d;
+  width: 200px;
+  padding: 20px;
+}
